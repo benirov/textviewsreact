@@ -1,0 +1,16 @@
+.scrolling-wrapper-flexbox {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cards {
+  flex: 0 0 auto;
+}
+
+.card-imageAutor > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

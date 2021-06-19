@@ -1,0 +1,93 @@
+.contenedorBusqueda{
+  padding-top: 4rem;
+}
+
+.search-bar {
+    border-radius: 11px;
+    background-color: white!important;
+    color: var(--body-color);
+    box-shadow: 0 10px 10px rgb(0 0 0 / 2%), 0 6px 3px rgb(0 0 0 / 3%)
+  }
+  .search-bar input {
+    display: block!important;
+    background-color: transparent!important;
+    border: none!important;
+    font-weight: 600!important;
+    padding: 0 10px 0 40px!important;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='%238b939c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' class='feather feather-search'%3e%3ccircle cx='11' cy='11' r='8'/%3e%3cpath d='M21 21l-4.35-4.35'/%3e%3c/svg%3e");
+    background-repeat: no-repeat!important;
+    background-size: 15px!important;
+    background-position: 15px 50%!important;
+    color: var(--body-color)!important;
+    /* font-family: var(--body-font)!important; */
+    
+  }
+  
+  .search-bar input:focus:not([readonly]) {
+    border-bottom: unset!important; 
+       -webkit-box-shadow: unset!important; 
+       box-shadow: unset!important;
+  }
+  
+  .search-bar input::placeholder {
+    color: var(--placeholder);
+  }
+
+  .divbotonbusqueda{
+    padding-top: 17px!important;
+    margin-left: -5px!important;
+  }
+  .divbotonbusqueda{
+    padding-top: 7px!important;
+    margin-left: -5px!important;
+  }
+
+  .filtroCard{
+    /* border: 1px solid var(--body-color)!important; */
+    background-color: #F2F2F2;
+    border-radius: 10px!important;
+  }
+
+  .contenedorCard{
+    /* border-bottom: 1px solid var(--body-color)!important; */
+  }
+
+  .badgep {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin: .6rem;
+    border: 1px solid transparent;
+  }
+  .badgep.badgep-primary {
+    background-color: #cdf0d7;
+    color: #2b9348;
+    border-color: #2b9348;
+  }
+
+  .badgep.badgep-closable {
+    padding-right: 1.5rem;
+    position: relative;
+  }
+  .badgep.badgep-closable .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1.5rem;
+    cursor: pointer;
+    opacity: 0.4;
+  }
+  .badgep.badgep-closable .close:hover {
+    opacity: 1;
+  }
+  .cards > label, span {
+    line-height: unset!important;
+  }

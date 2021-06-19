@@ -1,0 +1,79 @@
+.contenedorLibro{
+    padding-top: 7rem!important;
+}
+
+.contenedorLibro > div{
+    border: 1px solid var(--body-color)!important;
+    border-radius: 10px!important;
+    padding: 8px!important;
+    margin-bottom: 1.5rem;
+}
+
+.book-card-img{
+    width: 5rem;
+    border-radius: 6px;
+    height: inherit;
+}
+
+.tituloLibro{
+    font-weight: bold;
+    font-size: 16px; 
+    font-size: 1.1rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+}
+
+.tituloAutor{
+    font-weight: bold;
+    font-size: 16px; 
+    font-size: 1rem;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+}
+
+.descripcionLibro{
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 16px; 
+    font-size: 1rem;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+}
+
+.tituloDetalleLibro{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px; 
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+}
+
+
+.iconoFavorito{
+    font-size: 19px;
+    color: var(--body-color)!important;
+}
+
+
+.contenedorDetalleLibro{
+    padding-top: 3rem;
+}
+
+.contenedorDetalleLibro > img{
+    width: 125px;
+    border-radius: 10px;
+    box-shadow: 0 0 119px var(--body-color);
+}
+
+.imagenLibroDetalle{
+    height: 113px!important;
+    margin: 0!important;
+    padding: initial!important;
+}
+
+
+
